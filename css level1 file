@@ -1,0 +1,22 @@
+<html>
+    <head>
+
+        <title>sign up</title>
+    </head>
+    <body>
+        <div class="signupBox">
+            <h2>sign up</h2>
+<input type="text" placeholder="first name">
+<br>
+<input type="text" placeholder="first name">
+<br>
+<input type="text" placeholder="first name">
+<br>
+<input type="text" placeholder="first name">
+<br>
+<input type="text" placeholder="first name">
+<br>
+        </div>
+    </body>
+    <a href="css level1 file">next page</a>
+</html>

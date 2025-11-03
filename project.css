@@ -1,0 +1,65 @@
+body{
+    background: url("imgpc.jpg");
+    background-size: cover
+    background-repeat; no-repeat:
+}
+
+.signupBox{
+    background: rgb(10, 10, 10, 0.7);
+    padding: 40px;
+    width: 250px;
+    margin-top: 90px;
+    margin-left: 180px;
+    margin: 0 auto;
+}
+
+form{
+    width: 240px;
+    text-align: center;
+    margin-top: -10;
+}
+
+input{
+    width: 200px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 18px;
+    font-weight: 180px;
+    padding: 10px 0;
+    transition: 0.5s;
+    outline: none;
+    color:rgb(13, 14, 13)
+}
+button{
+    border: none;
+    width: 190px;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 25px;
+    cursor: pointer;
+}
+ button:hover{
+background: rgb(106, 112, 109);
+
+ }
+ .signupBox h2{
+    color: rgb(19, 19, 19);
+ }
+ a{
+    color: rgb(0, 0, 0);
+ }
+ .signIn{
+    color: rgb(225, 225, 225);
+ }
+ a:hover{
+    color: aliceblue;
+ }
+
+ ::placeholder{
+    color: black;
+    opacity: 0.5;
+ }
+

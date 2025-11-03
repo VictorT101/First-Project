@@ -1,0 +1,337 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trade Lenda - Stop Guessing, Start Growing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        .pulse-animation {
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
+        
+        .stats-counter {
+            font-size: 3rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                    <div class="w-10 h-10 gradient-bg rounded-lg flex items-center justify-center mr-3">
+                        <span class="text-white font-bold text-xl">TL</span>
+                    </div>
+                    <span class="text-2xl font-bold text-gray-900">Trade Lenda</span>
+                </div>
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#features" class="text-gray-600 hover:text-indigo-600 transition-colors">Features</a>
+                    <a href="#benefits" class="text-gray-600 hover:text-indigo-600 transition-colors">Benefits</a>
+                    <a href="#contact" class="text-gray-600 hover:text-indigo-600 transition-colors">Contact</a>
+                </nav>
+                <button class="gradient-bg text-white px-6 py-2 rounded-lg font-semibold hover:opacity-90 transition-opacity">
+                    Get Started
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg text-white py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+                    Stop Guessing.<br>
+                    <span class="text-yellow-300">Start Growing.</span>
+                </h1>
+                <p class="text-xl md:text-2xl mb-8 text-indigo-100 max-w-3xl mx-auto">
+                    Too many entrepreneurs are running their businesses on vibes and gut feelings. 
+                    Trade Lenda helps you move from guessing to growing with data-driven tools and funding.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <button class="bg-white text-indigo-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors shadow-lg">
+                        Get Started Today
+                    </button>
+                    <button class="border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-indigo-600 transition-colors">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Statement -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900 mb-6">The Danger of Assumptions in Business</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Here's the truth: <strong>guessing is not a strategy.</strong> Every decision made without real data increases your risk.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center p-8 bg-red-50 rounded-xl card-hover">
+                    <div class="text-6xl mb-4">📉</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Can't Scale</h3>
+                    <p class="text-gray-600">You can't scale what you can't measure. Without data, growth becomes impossible.</p>
+                </div>
+                
+                <div class="text-center p-8 bg-orange-50 rounded-xl card-hover">
+                    <div class="text-6xl mb-4">📊</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Can't Manage</h3>
+                    <p class="text-gray-600">You can't manage what you don't track. Blind spots lead to business failures.</p>
+                </div>
+                
+                <div class="text-center p-8 bg-yellow-50 rounded-xl card-hover">
+                    <div class="text-6xl mb-4">🎲</div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Running a Gamble</h3>
+                    <p class="text-gray-600">If you're not tracking your numbers, you're not running a business — you're running a gamble.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Areas -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900 mb-6">Critical Business Areas</h2>
+                <p class="text-xl text-gray-600">Whether it's pricing, profit, or purchasing — every decision needs real data.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-lg card-hover">
+                    <div class="w-16 h-16 gradient-bg rounded-lg flex items-center justify-center mb-6">
+                        <span class="text-white text-2xl font-bold">💰</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Pricing</h3>
+                    <p class="text-gray-600 mb-6">Set competitive prices based on market data, not guesswork. Maximize profit margins with intelligent pricing strategies.</p>
+                    <ul class="text-sm text-gray-500 space-y-2">
+                        <li>• Market analysis tools</li>
+                        <li>• Competitor pricing insights</li>
+                        <li>• Profit margin optimization</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-lg card-hover">
+                    <div class="w-16 h-16 gradient-bg rounded-lg flex items-center justify-center mb-6">
+                        <span class="text-white text-2xl font-bold">📈</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Profit</h3>
+                    <p class="text-gray-600 mb-6">Track every penny with precision. Understand your true profitability and identify areas for improvement.</p>
+                    <ul class="text-sm text-gray-500 space-y-2">
+                        <li>• Real-time profit tracking</li>
+                        <li>• Cost analysis breakdown</li>
+                        <li>• Revenue optimization</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-lg card-hover">
+                    <div class="w-16 h-16 gradient-bg rounded-lg flex items-center justify-center mb-6">
+                        <span class="text-white text-2xl font-bold">🛒</span>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Purchasing</h3>
+                    <p class="text-gray-600 mb-6">Make smart purchasing decisions with data-driven insights. Optimize inventory and reduce waste.</p>
+                    <ul class="text-sm text-gray-500 space-y-2">
+                        <li>• Inventory optimization</li>
+                        <li>• Supplier performance metrics</li>
+                        <li>• Demand forecasting</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gray-900 mb-6">The Power of Data-Driven Decisions</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-4 gap-8 text-center">
+                <div class="p-6">
+                    <div class="stats-counter pulse-animation">85%</div>
+                    <p class="text-gray-600 font-semibold">Increase in Profitability</p>
+                </div>
+                <div class="p-6">
+                    <div class="stats-counter pulse-animation">3x</div>
+                    <p class="text-gray-600 font-semibold">Faster Growth Rate</p>
+                </div>
+                <div class="p-6">
+                    <div class="stats-counter pulse-animation">60%</div>
+                    <p class="text-gray-600 font-semibold">Reduction in Waste</p>
+                </div>
+                <div class="p-6">
+                    <div class="stats-counter pulse-animation">95%</div>
+                    <p class="text-gray-600 font-semibold">Better Decision Accuracy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="gradient-bg text-white py-20">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Ready to Stop Guessing?</h2>
+            <p class="text-xl mb-8 text-indigo-100">
+                Join thousands of entrepreneurs who've transformed their businesses with Trade Lenda's data-driven tools and funding solutions.
+            </p>
+            
+            <div class="bg-white bg-opacity-10 backdrop-blur-sm rounded-2xl p-8 mb-8">
+                <div class="flex items-center justify-center mb-4">
+                    <span class="text-2xl mr-3">🔗</span>
+                    <span class="text-lg font-semibold">www.TradeLenda.com</span>
+                </div>
+                <button class="bg-white text-indigo-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors shadow-lg">
+                    Get Started Now
+                </button>
+            </div>
+            
+            <div class="flex flex-wrap justify-center gap-4 text-sm">
+                <span class="bg-white bg-opacity-20 px-4 py-2 rounded-full">#BusinessFinance</span>
+                <span class="bg-white bg-opacity-20 px-4 py-2 rounded-full">#EntrepreneurTips</span>
+                <span class="bg-white bg-opacity-20 px-4 py-2 rounded-full">#TradeLenda</span>
+                <span class="bg-white bg-opacity-20 px-4 py-2 rounded-full">#SMEGrowth</span>
+                <span class="bg-white bg-opacity-20 px-4 py-2 rounded-full">#DataOverGuesswork</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <div class="w-8 h-8 gradient-bg rounded-lg flex items-center justify-center mr-2">
+                            <span class="text-white font-bold">TL</span>
+                        </div>
+                        <span class="text-xl font-bold">Trade Lenda</span>
+                    </div>
+                    <p class="text-gray-400">Empowering businesses with data-driven tools and funding solutions.</p>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Solutions</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Business Analytics</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Funding Tools</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Growth Planning</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Resources</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white transition-colors">Blog</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Case Studies</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Support</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-semibold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>hello@tradelenda.com</li>
+                        <li>1-800-TRADE-LD</li>
+                        <li>Follow us on social media</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Trade Lenda. All rights reserved. Stop guessing, start growing.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add click handlers to all CTA buttons
+        document.querySelectorAll('button').forEach(button => {
+            if (button.textContent.includes('Get Started') || button.textContent.includes('Started Now')) {
+                button.addEventListener('click', function() {
+                    window.open('https://www.tradelenda.com', '_blank');
+                });
+            }
+        });
+
+        // Animate stats counters when they come into view
+        const observerOptions = {
+            threshold: 0.5,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const counter = entry.target;
+                    const target = counter.textContent;
+                    counter.textContent = '0';
+                    
+                    const increment = () => {
+                        const current = parseInt(counter.textContent);
+                        const targetNum = parseInt(target);
+                        
+                        if (current < targetNum) {
+                            counter.textContent = Math.min(current + Math.ceil(targetNum / 50), targetNum);
+                            setTimeout(increment, 30);
+                        } else {
+                            counter.textContent = target;
+                        }
+                    };
+                    
+                    increment();
+                    observer.unobserve(counter);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.stats-counter').forEach(counter => {
+            observer.observe(counter);
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96b47a12111894eb',t:'MTc1NDU0NTYyMC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
