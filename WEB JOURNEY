@@ -1,0 +1,11 @@
+<html>
+<title>life of a web developer</title>
+<head>
+    <body>
+        <h2>i am currently working on forms</h2>
+    </body>
+  <form>
+    <input type="text" value="first name">
+</form>
+    </head>
+</html>
